@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>279</width>
-    <height>603</height>
+    <width>281</width>
+    <height>594</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,25 +16,25 @@
   <widget class="QStackedWidget" name="stackedWidget">
    <property name="geometry">
     <rect>
-     <x>-1</x>
-     <y>-11</y>
+     <x>0</x>
+     <y>20</y>
      <width>281</width>
-     <height>621</height>
+     <height>581</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="get_started">
-    <widget class="QLabel" name="dog">
+    <widget class="QLabel" name="label_9">
      <property name="enabled">
       <bool>true</bool>
      </property>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>20</y>
-       <width>251</width>
+       <y>150</y>
+       <width>261</width>
        <height>311</height>
       </rect>
      </property>
@@ -48,7 +48,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>dog.png</pixmap>
+      <pixmap>th-removebg-preview.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -61,9 +61,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>30</y>
        <width>261</width>
-       <height>551</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -83,7 +83,8 @@ border-radius: 20px;
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">backgroud-color:#ffffff;</string>
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
      </property>
      <property name="text">
       <string>Get Started</string>
@@ -93,8 +94,8 @@ border-radius: 20px;
      <property name="geometry">
       <rect>
        <x>50</x>
-       <y>310</y>
-       <width>221</width>
+       <y>430</y>
+       <width>181</width>
        <height>41</height>
       </rect>
      </property>
@@ -106,7 +107,7 @@ border-radius: 20px;
      </property>
     </widget>
     <zorder>background_page_1</zorder>
-    <zorder>dog</zorder>
+    <zorder>label_9</zorder>
     <zorder>get_started_bt</zorder>
     <zorder>label_2</zorder>
    </widget>
@@ -116,9 +117,15 @@ border-radius: 20px;
       <rect>
        <x>20</x>
        <y>350</y>
-       <width>181</width>
+       <width>241</width>
        <height>131</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+font: 700 18pt &quot;Segoe UI&quot;;
+background-color: #aa00ff;
+color: white;</string>
      </property>
      <property name="html">
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -127,8 +134,8 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Whity is a good cat&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:18pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-weight:400;&quot;&gt;Whity is a good cat&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -139,6 +146,10 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <width>141</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="text">
       <string>Whity</string>
@@ -151,9 +162,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>30</y>
        <width>261</width>
-       <height>521</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -182,14 +193,18 @@ border-radius: 20px;
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="homepage_button">
+    <widget class="QPushButton" name="homepage_bt_1">
      <property name="geometry">
       <rect>
-       <x>24</x>
-       <y>580</y>
-       <width>241</width>
-       <height>24</height>
+       <x>20</x>
+       <y>520</y>
+       <width>111</width>
+       <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
      </property>
      <property name="text">
       <string>Homepage</string>
@@ -199,7 +214,7 @@ border-radius: 20px;
     <zorder>label_13</zorder>
     <zorder>label_14</zorder>
     <zorder>textBrowser_4</zorder>
-    <zorder>homepage_button</zorder>
+    <zorder>homepage_bt_1</zorder>
    </widget>
    <widget class="QWidget" name="homepage">
     <widget class="QLineEdit" name="background_page_2">
@@ -209,9 +224,9 @@ border-radius: 20px;
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>30</y>
        <width>261</width>
-       <height>551</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -225,7 +240,7 @@ border-radius: 20px;
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>190</y>
+       <y>210</y>
        <width>131</width>
        <height>91</height>
       </rect>
@@ -249,6 +264,10 @@ font: 14pt &quot;Segoe UI&quot;;</string>
        <width>101</width>
        <height>101</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
      </property>
      <property name="text">
       <string/>
@@ -304,6 +323,10 @@ font: 14pt &quot;Segoe UI&quot;;</string>
        <height>101</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
+     </property>
      <property name="text">
       <string/>
      </property>
@@ -355,7 +378,7 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>150</x>
        <y>280</y>
        <width>111</width>
        <height>91</height>
@@ -380,7 +403,7 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>170</x>
        <y>370</y>
        <width>49</width>
        <height>16</height>
@@ -393,11 +416,15 @@ font: 14pt &quot;Segoe UI&quot;;</string>
     <widget class="QPushButton" name="push_button_2">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>160</x>
        <y>300</y>
        <width>101</width>
        <height>101</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
      </property>
      <property name="text">
       <string/>
@@ -409,7 +436,7 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>180</x>
        <y>420</y>
        <width>61</width>
        <height>81</height>
@@ -434,7 +461,7 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>170</x>
        <y>510</y>
        <width>49</width>
        <height>16</height>
@@ -447,11 +474,15 @@ font: 14pt &quot;Segoe UI&quot;;</string>
     <widget class="QPushButton" name="push_button_4">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>160</x>
        <y>440</y>
        <width>101</width>
        <height>101</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
      </property>
      <property name="text">
       <string/>
@@ -460,8 +491,8 @@ font: 14pt &quot;Segoe UI&quot;;</string>
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>50</y>
+       <x>80</x>
+       <y>40</y>
        <width>131</width>
        <height>41</height>
       </rect>
@@ -472,6 +503,39 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      <property name="text">
       <string> Homepage</string>
      </property>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>241</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+</string>
+     </property>
+     <widget class="QLabel" name="dog_and_cat">
+      <property name="geometry">
+       <rect>
+        <x>-2</x>
+        <y>5</y>
+        <width>241</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>cat_and_dog-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
     <zorder>background_page_2</zorder>
     <zorder>label_3</zorder>
@@ -488,6 +552,7 @@ font: 14pt &quot;Segoe UI&quot;;</string>
     <zorder>melina_4</zorder>
     <zorder>cat_4</zorder>
     <zorder>label_7</zorder>
+    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="balmoso_page">
     <widget class="QLabel" name="label_12">
@@ -518,6 +583,10 @@ font: 14pt &quot;Segoe UI&quot;;</string>
        <height>31</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Segoe UI&quot;;</string>
+     </property>
      <property name="text">
       <string>Balmoso</string>
      </property>
@@ -529,9 +598,9 @@ font: 14pt &quot;Segoe UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>30</y>
        <width>261</width>
-       <height>521</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -542,13 +611,22 @@ border-radius: 20px;
      </property>
     </widget>
     <widget class="QTextBrowser" name="textBrowser_3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>20</x>
        <y>360</y>
-       <width>181</width>
+       <width>241</width>
        <height>131</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+font: 700 18pt &quot;Segoe UI&quot;;
+background-color: #aa00ff;
+color: white;</string>
      </property>
      <property name="html">
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -557,14 +635,33 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Balmoso is a good Dog&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:18pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-weight:400;&quot;&gt;Balmoso History was little bit dramatic since his owner, abbandon him.Despite the loss of his beloved owner  he remain optimistic in life.early abbadonment owner becouse of death this give opportunity to this dog to remain in life.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="homepage_bt_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>520</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
+     </property>
+     <property name="text">
+      <string>Homepage</string>
      </property>
     </widget>
     <zorder>background_page_5</zorder>
     <zorder>textBrowser_3</zorder>
     <zorder>label_12</zorder>
     <zorder>label_10</zorder>
+    <zorder>homepage_bt_2</zorder>
    </widget>
    <widget class="QWidget" name="rosas_page">
     <widget class="QTextBrowser" name="textBrowser_2">
@@ -572,9 +669,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <rect>
        <x>20</x>
        <y>360</y>
-       <width>181</width>
+       <width>241</width>
        <height>131</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+font: 700 18pt &quot;Segoe UI&quot;;
+background-color: #aa00ff;
+color: white;</string>
      </property>
      <property name="html">
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -583,8 +686,8 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rosas Is A good Cat&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:18pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-weight:400;&quot;&gt;Rosas Is A good Cat&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="background_page_4">
@@ -594,9 +697,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>30</y>
        <width>261</width>
-       <height>521</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -614,6 +717,10 @@ border-radius: 20px;
        <width>141</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="text">
       <string>Rosas</string>
@@ -638,10 +745,28 @@ border-radius: 20px;
       <bool>true</bool>
      </property>
     </widget>
+    <widget class="QPushButton" name="homepage_bt_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>520</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
+     </property>
+     <property name="text">
+      <string>Homepage</string>
+     </property>
+    </widget>
     <zorder>background_page_4</zorder>
     <zorder>label_6</zorder>
     <zorder>label_5</zorder>
     <zorder>textBrowser_2</zorder>
+    <zorder>homepage_bt_3</zorder>
    </widget>
    <widget class="QWidget" name="melina_page">
     <widget class="QLineEdit" name="background_page_3">
@@ -651,9 +776,9 @@ border-radius: 20px;
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>30</y>
        <width>261</width>
-       <height>521</height>
+       <height>541</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -685,24 +810,37 @@ border-radius: 20px;
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>18</x>
-       <y>315</y>
+       <x>110</x>
+       <y>320</y>
        <width>141</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+font: 700 16pt &quot;Segoe UI&quot;;</string>
      </property>
      <property name="text">
       <string>Melina</string>
      </property>
     </widget>
     <widget class="QTextBrowser" name="textBrowser">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>350</y>
-       <width>181</width>
+       <y>370</y>
+       <width>241</width>
        <height>131</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+font: 700 18pt &quot;Segoe UI&quot;;
+background-color: #aa00ff;
+color: white;</string>
      </property>
      <property name="html">
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -711,12 +849,88 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Melina is a good cat&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:18pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt; font-weight:400;&quot;&gt;Melina was a good cat she was  3 months  old&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="homepage_bt_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>520</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: #5A9;</string>
+     </property>
+     <property name="text">
+      <string>Homepage</string>
      </property>
     </widget>
    </widget>
   </widget>
+  <widget class="QLabel" name="samsung">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>311</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>images (1).jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date_label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+        color: white;
+    }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emergency_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+        color: white;
+    }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>samsung</zorder>
+  <zorder>stackedWidget</zorder>
+  <zorder>date_label</zorder>
+  <zorder>emergency_label</zorder>
  </widget>
  <resources/>
  <connections/>
